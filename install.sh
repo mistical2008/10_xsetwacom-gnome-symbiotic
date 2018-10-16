@@ -16,5 +16,5 @@ mv xsetwacom-gnome-symbiotic.service1 /etc/systemd/system/xsetwacom-gnome-symbio
 chmod +x $USER_HOME/.config/xsetwacom-gnome-symbiotic/setup.sh
 udevadm control --reload-rules
 udevadm trigger
-systemctl --user enable xsetwacom-gnome-symbiotic.service
-systemctl --user start xsetwacom-gnome-symbiotic.service
+systemctl enable xsetwacom-gnome-symbiotic.service
+systemctl start xsetwacom-gnome-symbiotic.service
