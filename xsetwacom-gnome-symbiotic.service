@@ -8,7 +8,7 @@
 [Service]
 Type=forking
 Restart=no
-ExecStart=/bin/xsetwacom.sh
+ExecStart=/usr/bin/xsetwacom-gnome-symbiotic_setup.sh
 
 [Install]
 WantedBy=default.target
